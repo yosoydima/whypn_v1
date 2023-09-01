@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <title>WhyPN</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/server.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg  conntainer">
+      <div class="container">
+        <a class="header__logo" href="index.html">
+          <img class="logo__image" src="img/logo.png" alt="Logo WH">
+          <div class="logo__text">WhyPN</div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="what-is-vpn.html">Что такое VPN?</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="features.html">Функции</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="servers.html">Сервера</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="pricess.html">Стоимость</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container pt-5 pb-5 text-center">
+    <div class="section__header row  d-flex align-items-center  ">
+      <h1> Расположение серверов WhyPN</h1>
+      <p class="fs-5 text-center"> VPN-серверы в 5 странах</p>
+    </div>
+  </div>
+  <div class="container world-map">
+    <img src="worldmap.jpg" alt="map">
+
+    <div class="pin usa">
+      <span>США</span>
+    </div>
+    <div class="pin italy">
+      <span>Италия</span>
+    </div>
+    <div class="pin russia">
+      <span>Россия</span>
+    </div>
+    <div class="pin netherland">
+      <span>Нидерланды</span>
+    </div>
+    <div class="pin spain">
+      <span>Испания</span>
+    </div>
+  </div>
+  <div class="container px-4 py-5" id="icon-grid" style="margin-top: 10rem;">
+    <h2 class="pb-2 border-bottom text-center py-11">Серверы WhyPN по городам</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-11 pt-2">
+      <div class="col d-flex align-items-start">
+        <img src="img/россия.png" class="bi text-muted flex-shrink-0 me-3" style="max-width: 50%; max-height: 50%;"
+          alt="Image 1">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Россия</h3>
+          <p>Доступный город: Москва</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="img/сша.png" class="bi text-muted flex-shrink-0 me-3" style="max-width: 50%; max-height: 50%;"
+          alt="Image 1">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">США</h3>
+          <p>Доступный город: Майми</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="img/espana.png" class="bi text-muted flex-shrink-0 me-3" style="max-width: 50%; max-height: 50%;"
+          alt="Image 1">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Испания</h3>
+          <p>Доступный город: Мадрид</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="img/италия.png" class="bi text-muted flex-shrink-0 me-3" style="max-width: 50%; max-height: 50%;"
+          alt="Image 1">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Италия</h3>
+          <p>Доступный город: Палермо</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="img/нидерланды.png" class="bi text-muted flex-shrink-0 me-3" style="max-width: 50%; max-height: 50%;"
+          alt="Image 1">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Нидерланды</h3>
+          <p>Доступный город: Амстердам</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="title__first" style="margin-top: 10rem;">
+    <h1> Расположение виртуальных серверов</h1>
+    <p> Виртуальные серверы теперь доступны для нескольких стран, обеспечивая быстрое, надежное и безопасное
+      VPN-соединение. При подключении к виртуальному серверу вам присваивается IP-адрес, зарегистрированный в выбранной
+      вами стране, но ваш трафик направляется через сервер в стране с наилучшей скоростью соединения.</p>
+    <a class="btn" href="features.html" target="_blank">Посмотреть все функции</a>
+  </div>
+  <div>
+    <div class="title__first" style="margin-top: 10rem;">
+      <h1 class="mb-40">Подключайтесь к WhyPN в...</h1>
+      <div class="icon-container">
+        <svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+          viewBox="0 0 16 16">
+          <path
+            d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+          <path
+            d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+        </svg>
+        <svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+          viewBox="0 0 16 16">
+          <path
+            d="M2.76 3.061a.5.5 0 0 1 .679.2l1.283 2.352A8.94 8.94 0 0 1 8 5a8.94 8.94 0 0 1 3.278.613l1.283-2.352a.5.5 0 1 1 .878.478l-1.252 2.295C14.475 7.266 16 9.477 16 12H0c0-2.523 1.525-4.734 3.813-5.966L2.56 3.74a.5.5 0 0 1 .2-.678ZM5 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm6 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" />
+        </svg>
+        <svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+          viewBox="0 0 16 16">
+          <path
+            d="M6.555 1.375 0 2.237v5.45h6.555V1.375zM0 13.795l6.555.933V8.313H0v5.482zm7.278-5.4.026 6.378L16 16V8.395H7.278zM16 0 7.33 1.244v6.414H16V0z" />
+        </svg>
+      </div>
+      <div>
+        <img src="img/diveces.png" alt="WhatIsVpn"
+          style="display: block; margin: 0 auto; max-width: 30%; max-height: 30%; margin-bottom: 10rem;">
+      </div>
+    </div>
+  </div>
+  <div class="container mx-auto" style="margin-bottom: 10rem;">
+    <h1 class="text-center  pb-2 pt-2 border-bottom text-center py-11">Ответы на часто задаваемые вопросы</h1>
+    <div class=" accordion pt-2" id="faqAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Как выбрать оптимальное расположение сервера?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Мы рекомендуем вам выбирать страны, близкие к вашему фактическому местоположению, так как скорость вашего
+            VPN-соединения будет зависеть от расстояния до нашего сервера. При желании вы можете выбрать любой из
+            серверов в вашем личном кабинете.
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Что такое VPN-сервер?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            VPN-сервер - это сервер, к которому подключается ваше VPN-приложение и через который оно направляет все ваши
+            данные. Это делает возможными две фундаментальные вещи:
+
+            Шифрование: данные, покидающие ваше устройство, шифруются, поэтому они бесполезны для любого, кто
+            перехватывает их. Изменение местоположения: любой сайт или сервис, который вы посещаете, будет думать, что
+            вы подключаетесь с местоположения VPN-сервера, скрывая таким образом ваш реальный IP-адрес и избегая
+            цензуры.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Могу ли я создать собственный VPN?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Если вам необходимо создать собственный VPN-сервер, то сервис WhyPN не предназначен для этой цели. Однако
+            для подавляющего большинства обычных пользователей Интернета это не требуется. Для обеспечения вашей
+            повседневной безопасности и конфиденциальности, WhyPN предлагает более чем достаточное количество серверов
+            (у нас более 900 серверов), при этом являясь более доступным и простым в использовании вариантом.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Являются ли VPN-серверы бесплатными?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Это зависит от контекста вашего вопроса. Если вы интересуетесь о стоимости установки и обслуживания
+            собственного VPN-сервера, то это требует определенных затрат, включая оборудование, электропитание и
+            подключение к интернет-провайдеру для доступа в сеть. Однако, если вы спрашиваете о платности использования
+            определенного сервера в рамках сервиса WhyPN, то ответ нет. После подписки на услугу WhyPN, вы получаете
+            возможность подключаться к любому из их серверов и свободно переключаться между ними без дополнительной
+            платы.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Что такое DNS?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Когда вы посещаете веб-сайт, вам нужен его URL, например, www.whypn.com. Но устройство не понимает адреса.
+            Вместо этого оно обращается к службе DNS (Domain Name System), которая переводит URL в IP-адрес, который
+            устройство может использовать. Например, наш адрес 100.20.120.20. Было бы очень сложно запомнить IP-адреса
+            всех доступных сайтов, поэтому DNS (система доменных имен) делает это за вас. Она преобразует имена хостов в
+            IP-адреса, чтобы ваш компьютер понимал их и мог связаться с сайтом, который вы хотите посетить.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-container">
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted" style="margin-top: 22px">© 2023 WhyPN, Inc. Все права
+            защищены.</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="https://t.me/+5mWp7fS7seVjZmJi"><img src="img/telegram.png"
+                alt="Telegram" width="28" height="28" style="margin-top: 22px"></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/whypn/"><img src="img/instagram.png"
+                alt="Instagram" width="28" height="28" style="margin-top: 22px"></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://www.youtube.com/@whypn9781"><img src="img/youtube.png"
+                alt="YouTube" width="30" height="30" style="margin-top: 22px"></a></li>
+        </ul>
+      </footer>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
